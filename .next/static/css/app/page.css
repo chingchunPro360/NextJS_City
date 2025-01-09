@@ -68,26 +68,7 @@
   padding: 2rem;
 }
 
-.page_grid__JZ9Cz {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.page_button__52WaL {
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 8px;
-  background-color: #0070f3;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.page_button__52WaL:hover {
-  background-color: #0051a2;
+.page_title__po7na {
+  margin-bottom: 1rem;
 }
 

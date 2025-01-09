@@ -11,7 +11,7 @@ export default function CityList({ cities, selectedCity }) {
         <button
           key={city}
           className={`${styles.button} ${city === selectedCity ? styles.selected : ''}`}
-          onClick={() => router.push(`/cities/${encodeURIComponent(city)}`)}
+          onClick={() => router.push(`/${encodeURIComponent(city)}`)}
         >
           {city}
         </button>

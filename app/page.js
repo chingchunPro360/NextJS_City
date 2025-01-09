@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1>台灣主要城市</h1>
+      <h1 className={styles.title}>台灣主要城市</h1>
       <Breadcrumb items={breadcrumbItems} />
       <CityList cities={cities} />
     </main>

@@ -11,7 +11,7 @@ export default function DistrictList({ city, districts, selectedDistrict }) {
         <button
           key={district}
           className={`${styles.button} ${district === selectedDistrict ? styles.selected : ''}`}
-          onClick={() => router.push(`/cities/${encodeURIComponent(city)}/districts/${encodeURIComponent(district)}`)}
+          onClick={() => router.push(`/${encodeURIComponent(city)}/${encodeURIComponent(district)}`)}
         >
           {district}
         </button>
