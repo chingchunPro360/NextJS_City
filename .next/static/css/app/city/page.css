@@ -1,0 +1,96 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/Breadcrumb.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.Breadcrumb_breadcrumb__sk1qL {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.Breadcrumb_link__KB6AX {
+  color: #0070f3;
+  cursor: pointer;
+}
+
+.Breadcrumb_link__KB6AX:hover {
+  text-decoration: underline;
+}
+
+.Breadcrumb_separator__FSbJK {
+  margin: 0 0.5rem;
+  color: #666;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/components/DistrictList.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.DistrictList_grid__NIp11 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-items: start;
+}
+
+.DistrictList_button__7APBv {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #E8F5E9;
+  color: #2E7D32;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.DistrictList_button__7APBv:hover {
+  background-color: #C8E6C9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.DistrictList_selected__dsFlQ {
+  background-color: #2E7D32;
+  color: white;
+  font-weight: 600;
+  pointer-events: none;
+  box-shadow: 0 0 0 2px #1B5E20;
+  transform: scale(1.02);
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./app/city/page.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.page_container__y9Kie {
+  padding: 2rem;
+}
+
+.page_breadcrumb__WKqsS {
+  margin-bottom: 1rem;
+}
+
+.page_breadcrumb__WKqsS span:first-child {
+  cursor: pointer;
+  color: #0070f3;
+}
+
+.page_breadcrumb__WKqsS span:first-child:hover {
+  text-decoration: underline;
+}
+
+.page_backButton__OMnVJ {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page_backButton__OMnVJ:hover {
+  background-color: #e0e0e0;
+}
+

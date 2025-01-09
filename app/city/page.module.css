@@ -1,0 +1,29 @@
+.container {
+  padding: 2rem;
+}
+
+.breadcrumb {
+  margin-bottom: 1rem;
+}
+
+.breadcrumb span:first-child {
+  cursor: pointer;
+  color: #0070f3;
+}
+
+.breadcrumb span:first-child:hover {
+  text-decoration: underline;
+}
+
+.backButton {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: #e0e0e0;
+}

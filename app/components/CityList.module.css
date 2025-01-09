@@ -1,0 +1,36 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-items: start;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #E3F2FD;
+  color: #1976D2;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.button:hover {
+  background-color: #BBDEFB;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.selected {
+  background-color: #1976D2;
+  color: white;
+  font-weight: 600;
+  pointer-events: none;
+  box-shadow: 0 0 0 2px #0D47A1;
+  transform: scale(1.02);
+}

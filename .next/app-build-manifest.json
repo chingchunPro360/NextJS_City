@@ -1,0 +1,39 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/layout.js"
+    ],
+    "/city/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/city/page.css",
+      "static/chunks/app/city/page.js"
+    ],
+    "/city/district/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/city/district/page.css",
+      "static/chunks/app/city/district/page.js"
+    ],
+    "/cities/[city]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cities/[city]/page.css",
+      "static/chunks/app/cities/[city]/page.js"
+    ],
+    "/cities/[city]/districts/[district]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cities/[city]/districts/[district]/page.css",
+      "static/chunks/app/cities/[city]/districts/[district]/page.js"
+    ]
+  }
+}
